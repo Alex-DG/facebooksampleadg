@@ -42,7 +42,6 @@ public class MainActivity extends ActionBarActivity {
 			}
 		});		
 		
-		// careful here you can use 
 		authButton.setReadPermissions(Arrays.asList("public_profile", "email"));
 		authButton.setSessionStatusCallback(new Session.StatusCallback() {
 			
